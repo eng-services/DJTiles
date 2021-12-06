@@ -193,7 +193,7 @@ equalheight = function (container) {
   });
 };
 
-$(window).load(function () {
+$(window).on("load", function () {
   equalheight(".equalheight");
 });
 
