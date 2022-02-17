@@ -48,6 +48,9 @@ body {
 }
 
 /* Coming soon*/
+li.active a{
+    color: #fff;
+}
 .header .navigation-fix {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -396,6 +399,9 @@ body {
 }
 .contact-page .header .navigation li a {
     color: #3a6d88;
+}
+.contact-page .header .navigation li.active a {
+    color: #fff;
 }
 .header .navigation li.current a {
     background: url(images/icon-menu.png) no-repeat bottom center;

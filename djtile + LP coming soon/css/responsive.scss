@@ -757,7 +757,10 @@
 	    background: none;
 	    color: #C0A480
 	}
-	
+	.header .navigation li.active a:hover {
+	    background: none;
+	    color: #C0A480 !important
+	}
 	.infomation ul li img{
 		display: block;
 		float: none;
