@@ -83,6 +83,7 @@ body {
 }
 .header .navigation ul {
     display: inline-flex;
+    padding-left: 0;
 }
 .header .navigation li {
     float: left;
@@ -2413,6 +2414,9 @@ li.active a{
     padding: 20px 10px 20px 10px;
     transition: all 0.5s;
     margin: 0 !important;
+}
+.header .navigation .ul-nav-fix ul {
+    padding-left: 0;
 }
 .first-container-fix {
     margin-top: 105px;
