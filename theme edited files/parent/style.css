@@ -1,0 +1,634 @@
+/*
+Theme Name: Savoye
+Theme URI: http://shtheme.org/demosd/savoye
+Author: Shtheme
+Author URI: http://shtheme.orh
+Description: Savoye – Architecture & Interior WordPress is perfect if you like a unique, niche and creative theme. This theme is ideal for architects, interior, exterior, construction, photographers, furniture, designers and those who need an easy, attractive and effective way to share their work with clients.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: savoye
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+p.comment-form-cookies-consent{
+    display: none;
+}
+.search-custom form button {
+    border: 1px solid #c5a47e;
+    color: #fff;
+    font-size: 15px;
+    height: 45px;
+    position: relative;
+    width: 45px;
+    cursor: pointer;
+    float: right;
+    background: #c5a47e;
+    margin-top: -55px;
+    padding: 0;
+    letter-spacing: 0;
+    line-height: 1;
+}
+.search-custom form button:focus{
+    outline: none;
+}
+.search-custom form button:hover{
+    background: #fff;
+    border: 1px solid #c5a47e;
+    color: #c5a47e;
+}
+.search-custom form input{
+    width: 100%;
+    padding: 9px;
+    margin-top: 10px;
+    border:1px solid #ede3d8;
+}
+.search-custom h4{
+    font-size: 20px;
+}
+a.comment-reply-link{
+    font-size: 15px;
+    color: #c5a47e;
+    margin: 0;
+    font-weight: 400;
+}
+p.form-submit input.submit{
+    color: #fff;
+    background: #c5a47e;
+    cursor: pointer;
+    padding: 12px 24px 9px 24px;
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 4px;
+    transition: all 200ms linear;
+    text-transform: uppercase;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: 400;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+p.form-submit input.submit:hover {
+    border: 1px solid #c5a47e;
+    background: #fff;
+    color: #c5a47e;
+}
+h3.comment-reply-title{
+    font-size: 36px;
+}
+.mr-8{
+    margin-right: 8.333333333%;
+}
+.blog-sidebar .search form button{
+    line-height: 2;
+}
+.blog-sidebar .wp-tag-cloud li {
+    margin: 3px !important;
+    padding: 7px 20px;
+    background-color: #c5a47e;
+    color: #fff !important;
+    float: left;
+}
+.blog-sidebar ul.wp-tag-cloud li a {
+    font-size: 15px!important;
+    color: #fff;
+}
+.blog-sidebar ul.wp-tag-cloud li:hover, .blog-sidebar ul.wp-tag-cloud li a:hover {
+    background-color: #272727;
+    color: #fff;
+}
+ul.pagination{
+    margin: 30px 0;
+    text-align: center;
+    display: block;
+}
+ul.pagination li {
+    display: inline-block;
+    margin: 0 5px;
+}
+ul.pagination li a ,
+ul.pagination li span{
+    background: transparent;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    color: #555;
+    font-weight: 400;
+    border: 1px solid #f6f6f6;
+    font-size: 17px;
+}
+ul.pagination  li span.current {
+    background-color: transparent;
+    border: 1px solid #c5a47e;
+    color: #c5a47e;
+}
+ul.pagination li a:hover {
+    opacity: 1;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #c5a47e;
+    color: #c5a47e;
+}
+a.nav-link i{
+    font-size: 9px;
+    padding-left: 2px;
+}
+.navbar .navbar-nav .active a {
+    color: #c5a47e !important;
+}
+ul.dropdown-menu li{
+    padding: 5px 15px;
+    font-family: 'Khand', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    background-color: #fff;
+    display: block;
+}
+ul.dropdown-menu li:last-child{
+    border-bottom: none;
+}
+ul.dropdown-menu li:hover{
+    background: transparent;
+    padding-left: 20px;
+    color: #c5a47e;
+}
+.pagination li a i {
+    font-size: 11px;
+}
+.navbar .navbar-nav li.active ul li a {
+    color: #666 !important;
+}
+.navbar .navbar-nav li.active ul li:hover a{
+    color: #c5a47e!important;
+}
+.wpcf7-form-control-wrap{
+    width: 100%;
+}
+.wpcf7 form .wpcf7-response-output{
+    margin: 10px 0 0 0 ;
+}
+
+
+
+.dark{
+    color: #999;
+    background: #272727;
+}
+.dark p{
+    color: #999;
+}
+.dark .savoye-comment-section h6{
+    color: #fff;
+}
+.dark .savoye-comment-section h6 span{
+    color: #999;
+}
+.dark h3.comment-reply-title{
+    color: #999;
+}
+.dark input, .dark textarea , .dark input::placeholder, .dark textarea::placeholder{
+    color: #999;
+}
+.dark p.form-submit input.submit:hover{
+    background-color: #272727;
+}
+.dark #comment-form input, .dark textarea{
+    border-bottom-color: #323232;
+}
+.dark [data-overlay-darkgray] p {
+    color: rgba(255, 255, 255, 0.7);
+}
+.dark .section-title{
+    color: #fff;
+}
+.dark .main-footer.dark{
+    background: #272727;
+}
+.dark .main-footer .fothead h6{
+    color: #fff;
+}
+.dark .main-footer .usful-links ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.dark .main-footer .usful-links ul li a:hover {
+    color: #c5a47e;
+}
+.dark .main-footer p, .dark .main-footer .abot p {
+    color: rgba(255, 255, 255, 0.7);
+}
+.dark .main-footer .abot .social-icon a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.dark .main-footer .abot .social-icon a:hover {
+    color: #c5a47e;
+}
+.dark .main-footer .sub-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.025);
+}
+.dark .main-footer .sub-footer p span {
+    color: rgba(255, 255, 255, 0.1);
+}
+.dark .pagination li a{
+    border: 1px solid #323232;
+    color: #999;
+}
+.dark ul.dropdown-menu li{
+    background-color: #323232;
+    color: rgba(255, 255, 255, 0.7);
+}
+.dark ul.dropdown-menu li:hover{
+    color: #c5a47e;
+}
+.dark .nav-scroll{
+    background: #272727;
+}
+.dark .price .item.active .features li{
+    color: #fff;
+}
+.dark .nav-scroll .navbar-nav .nav-link {
+    color: rgba(255, 255, 250, 0.7);
+}
+.dark .nav-scroll .navbar-nav .nav-link:hover{
+    color: #c5a47e;
+}
+.dark .dropdown-menu{
+    background-color: #323232;
+}
+.dark .nav-scroll{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.dark .banner-img:after{
+    background: linear-gradient(to top, rgba(39, 39, 39, 1) 0%, rgba(39, 39, 39, 0.5) 100%, rgba(39, 39, 39, 0.2) 100%);
+}
+.dark .sidebar .sidebar-widget .widget-inner {
+    background: #323232;
+}
+.dark .sidebar-title h5{
+    color: #fff;
+}
+.dark .sidebar .services ul li,
+.dark .sidebar .services ul li a{
+    color: #999;
+}
+.dark .sidebar .services ul li:hover a,.dark .sidebar .services ul li.active a {
+    color: #fff;
+}
+.dark .sidebar .help .phone a{
+    color: #fff;
+}
+.dark .sidebar-title {
+    border-bottom: 1px solid #444;
+}
+.dark .savoye-project-wrap p {
+    color: #c5a47e;
+}
+.dark .navbar .navbar-nav li.active ul li.active a {
+    color: #c5a47e !important;
+}
+.dark .navbar .navbar-nav li ul li a {
+    color: #999 !important;
+}
+.dark input.wpcf7-submit{
+    color: #fff;
+}
+.dark.sidebar #savoye-aside{
+    background: #272727;
+    border-right: 1px
+ solid rgba(255, 255, 255, 0.04);
+}
+.dark.sidebar #savoye-aside .savoye-logo h2{
+    color: #fff;
+}
+#savoye-aside .savoye-main-menu > ul > li > a{
+    color: #555;
+}
+.dark #savoye-aside .savoye-main-menu > ul > li > a{
+    color: #999;
+}
+.dark.sidebar #savoye-aside .savoye-main-menu ul ul li:last-of-type {
+    border-bottom: 1px
+ solid rgba(255,255,255,0.02);
+}
+.dark .circle-fill circle {
+    fill: rgba(255, 255, 255, 0.07);
+    stroke: rgb(255, 255, 255);
+}
+.dark .preloader-bg,.dark #preloader{
+    background: #272727;
+}
+.dark .logo-wrapper{
+    background: #272727;
+}
+.dark .topbanner-footer h6{
+    color: #fff;
+}
+.dark .topbanner-footer h5{
+    color: #fff;
+}
+.dark [data-overlay-light] p  {
+    color: rgba(255, 255, 255, 0.7);
+}
+.dark .topbanner-footer [data-overlay-light="4"]:before {
+    opacity: 0.1;
+}
+.dark [data-overlay-light]:before {
+    background: #272727;
+}
+.dark [data-overlay-light] span{
+    color: #fff;
+}
+.dark .navbar .navbar-nav li ul li:hover a {
+    color: #c5a47e !important;
+}
+
+/* Sidebar*/
+
+.sidebar #savoye-aside .savoye-main-menu > ul > li > a{
+    border-bottom: 1px solid #f6f6f6;
+}
+.sidebar #savoye-aside .savoye-main-menu > ul li:last-child > a{
+    border-bottom: none;
+}
+
+/* ======= Sidebar styles ======= */
+.sidebar #savoye-page {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.sidebar #savoye-aside {
+    padding: 60px 40px;
+    width: 20.9%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 1001;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    border: none;
+    border-right: 1px solid #f6f6f6;
+    scrollbar-width: none;
+}
+.sidebar .container {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+@media screen and (max-width: 1200px) {
+    .sidebar #savoye-aside {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sidebar #savoye-aside {
+        width: 270px;
+        -moz-transform: translateX(-270px);
+        -webkit-transform: translateX(-270px);
+        -ms-transform: translateX(-270px);
+        -o-transform: translateX(-270px);
+        transform: translateX(-270px);
+        padding: 60px 30px 0 30px;
+    }
+}
+/* ======= Scrollbar ======= */
+
+.sidebar ::-webkit-scrollbar {
+    width: 0px;
+}
+
+.sidebar ::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.sidebar ::-webkit-scrollbar-thumb {
+    background: #171717;
+}
+
+.sidebar ::-webkit-scrollbar-thumb:hover {
+    background: #171717;
+}
+/* logo */
+.sidebar #savoye-aside .savoye-logo {
+    text-align: center;
+    margin-bottom: 75px;
+    display: block;
+}
+.sidebar #savoye-aside .savoye-logo h2 {
+    font-family: 'Khand', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    position: relative;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.sidebar #savoye-aside .savoye-logo span {
+    font-family: 'Khand', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    display: block;
+    margin-top: 0px;
+    margin-left: 5px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+.sidebar #savoye-aside .savoye-logo .logo-img {
+    width: 60px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 768px) {
+    .sidebar #savoye-aside .savoye-logo {
+        margin-bottom: 60px;
+    }
+}
+.sidebar #savoye-aside .savoye-logo a {
+    display: inline-block;
+    text-align: center;
+    color: #c5a47e;
+}
+.sidebar #savoye-aside .savoye-logo a span {
+    display: block;
+    margin-top: 0px;
+}
+/* Menu */
+.sidebar #savoye-aside .savoye-main-menu,
+.sidebar #savoye-aside .savoye-main-menu ul,
+.sidebar #savoye-aside .savoye-main-menu ul li,
+.sidebar #savoye-aside .savoye-main-menu ul li a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.sidebar #savoye-aside .savoye-main-menu {
+    margin-bottom: 90px;
+}
+@media screen and (max-width: 768px) {
+    .sidebar #savoye-aside .savoye-main-menu {
+        margin-bottom: 30px;
+    }
+}
+.sidebar #savoye-aside .savoye-main-menu ul ul {
+    display: none;
+}
+.sidebar #savoye-aside .savoye-main-menu ul ul li:last-of-type {
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 13px;
+}
+.sidebar #savoye-aside .savoye-main-menu > ul > li > a {
+    font-family: 'Khand', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    margin: 13px 0 0 0;
+    padding: 0 0 13px 0;
+    list-style: none;
+}
+.dark.sidebar #savoye-aside .savoye-main-menu > ul > li > a{
+    border-bottom: 1px solid rgba(255,255,255,0.02);
+}
+.sidebar #savoye-aside .savoye-main-menu > ul > li > a:hover,
+.sidebar #savoye-aside .savoye-main-menu > ul > li.active > a,
+.sidebar #savoye-aside .savoye-main-menu > ul > li.open > a {
+    color: #c5a47e;
+}
+.sidebar #savoye-aside .savoye-main-menu > ul > li.open > a {
+    color: #c5a47e;
+    margin: 13px 0 0 0;
+    padding: 0 0 13px 0;
+    list-style: none;
+    border-bottom: none;
+}
+.sidebar #savoye-aside .savoye-main-menu > ul > li:last-child > a,
+.sidebar #savoye-aside .savoye-main-menu > ul > li.last > a {}
+.sidebar #savoye-aside .savoye-main-menu > ul > li > a:hover > span::after,
+.sidebar #savoye-aside .savoye-main-menu > ul > li.active > a > span::after,
+.sidebar #savoye-aside .savoye-main-menu > ul > li.open > a > span::after {
+    border-color: #c5a47e;
+}
+.sidebar #savoye-aside .savoye-main-menu ul ul li a {
+    padding: 8px 0 8px 15px;
+    list-style: none;
+    font-family: 'Khand', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+.sidebar #savoye-aside .savoye-main-menu ul ul li:hover > a,
+.sidebar #savoye-aside .savoye-main-menu ul ul li.open > a,
+.sidebar #savoye-aside .savoye-main-menu ul ul li.active > a {
+    color: #c5a47e;
+}
+.sidebar #savoye-aside .savoye-main-menu ul ul ul li a {
+    margin-left: 15px;
+}
+.sidebar #savoye-aside .savoye-main-menu > ul > li > ul > li:last-child > a,
+.sidebar #savoye-aside .savoye-main-menu > ul > li > ul > li.last > a {
+    padding-bottom: 8px;
+}
+.sidebar #savoye-aside .savoye-main-menu > ul > li > ul > li.open:last-child > a,
+.sidebar #savoye-aside .savoye-main-menu > ul > li > ul > li.last.open > a {}
+.sidebar #savoye-aside .savoye-main-menu > ul > li > ul > li.open:last-child > ul > li:last-child > a {}
+.sidebar #savoye-aside .savoye-main-menu ul ul li.active > a::after,
+.sidebar #savoye-aside .savoye-main-menu ul ul li.open > a::after,
+.sidebar #savoye-aside .savoye-main-menu ul ul li > a:hover::after {}
+/* important offcanvas for menu */
+body.offcanvas {
+    overflow-x: hidden;
+}
+body.offcanvas #savoye-aside {
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    width: 270px;
+    z-index: 999;
+    position: fixed;
+}
+body.offcanvas #savoye-main,
+body.offcanvas .savoye-nav-toggle {
+    top: 0;
+    -moz-transform: translateX(270px);
+    -webkit-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+    -o-transform: translateX(270px);
+    transform: translateX(270px);
+}
+
+/* ======= Content styles ======= */
+.sidebar #savoye-main {
+    width: 79.2%;
+    float: right;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+@media screen and (max-width: 1200px) {
+    .sidebar #savoye-main {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sidebar #savoye-main {
+        width: 100%;
+    }
+    .sidebar .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+
+/* Add*/
+span.tag{
+    text-transform: capitalize;
+}
+.elementor hr.line-vr-section{
+    margin: -37px auto;
+}
+.YouTubePopUp-Wrap{
+    background-color: rgba(0,0,0,0.8);
+}
+.main-footer .sub-footer p span{
+    color: inherit;
+}
+.comming  input.wpcf7-submit{
+    background-color: #c5a47e;
+    padding: 10px 20px 6px 20px;
+    border-radius: 0px;
+    color: #fff;
+    border: 0;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    font-family: 'Khand', sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: auto;
+}
